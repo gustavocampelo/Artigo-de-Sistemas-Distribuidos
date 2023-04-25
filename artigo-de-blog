@@ -23,6 +23,7 @@ Para superar esses desafios, os desenvolvedores de sistemas distribuídos podem 
 gRPC
 
 O gRPC é uma tecnologia de RPC (Remote Procedure Call) desenvolvida pela Google. É uma estrutura de comunicação de cliente-servidor de alto desempenho e escalável, projetada para conectar serviços em sistemas distribuídos. Ele usa o protocolo HTTP/2 para transmissão de dados, o que permite a transferência de várias chamadas em paralelo, tornando-o mais rápido e eficiente do que outras soluções RPC. O gRPC também possui suporte a vários idiomas de programação e permite a definição de APIs usando o protocolo de buffer do Google.
+
 Alternativas de RPC
 
 Existem outras alternativas ao gRPC para implementação de sistemas distribuídos, sendo as mais comuns:
@@ -33,6 +34,7 @@ Existem outras alternativas ao gRPC para implementação de sistemas distribuíd
 Apache Kafka
 
 O Apache Kafka é um message broker de código aberto amplamente utilizado em sistemas distribuídos. Ele é projetado para gerenciar grandes volumes de dados em tempo real e suporta vários casos de uso, como streaming de dados, mensagens em tempo real e processamento de fluxo de dados. O Kafka usa um modelo de publicação-subscrição, onde os produtores publicam dados em tópicos e os consumidores se inscrevem nesses tópicos para receber esses dados. Ele também possui um alto grau de escalabilidade e tolerância a falhas, tornando-o ideal para sistemas distribuídos.
+
 Alternativas de message broker
 
 Além do Apache Kafka, existem outras alternativas para implementação de message brokers em sistemas distribuídos, sendo as mais comuns:
